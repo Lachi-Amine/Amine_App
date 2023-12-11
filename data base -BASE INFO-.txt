@@ -1,8 +1,1 @@
-from openpyxl import Workbook
-workbook=Workbook()
-sheet=workbook.active
 
-sheet["B2"] = "Hello"
-sheet["C2"] = "World"
-
-workbook.save(filename= "test.xlsx")
